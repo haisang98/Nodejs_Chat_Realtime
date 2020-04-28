@@ -1,0 +1,13 @@
+https://tedu.com.vn/video/bai-1-gioi-thieu-tong-quan-va-cai-dat-504.html
+
+
+CREATE TABLE USER(
+	id_user INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	username_user VARCHAR(50) NOT NULL UNIQUE,
+	password_user VARCHAR(100) NOT NULL,
+	avatar_user VARCHAR(100) NOT NULL,
+	created_user TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	updated_user TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+
+De Lap duoc <tag> thi ban dung each(): https://api.jquery.com/each/
